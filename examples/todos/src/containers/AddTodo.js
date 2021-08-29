@@ -8,6 +8,7 @@ const AddTodo = ({ dispatch }) => {
   return (
     <div>
       <form onSubmit={e => {
+        debugger;
         e.preventDefault()
         if (!input.value.trim()) {
           return
